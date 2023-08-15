@@ -163,7 +163,7 @@ view: pricing {
 
 
 view: cloud_pricing_export {
-  sql_table_name: `@{PRICING_TABLE}` ;;
+  sql_table_name: pricing_table ;;
 
   dimension_group: _partitiondate {
     type: time

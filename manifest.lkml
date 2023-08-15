@@ -6,12 +6,12 @@ constant: RECOMMENDATION_TABLE {
 }
 
 constant: BILLING_TABLE {
-  value: "instance.billing.gcp_billing_export_public"
+  value: "reseller_billing_detailed_export_v1"
   export: override_optional
 }
 
 constant: PRICING_TABLE {
-  value: "instance.billing.cloud_pricing_export"
+  value: "instance.billing.cloud.pricing.export"
   export: override_optional
 }
 

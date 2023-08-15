@@ -20,7 +20,7 @@
         value_format: !!null '', value_format_name: percent_2, _kind_hint: measure,
         _type_hint: number}]
     custom_color_enabled: true
-    show_single_value_title: true
+    show_single_value_title: truef
     show_comparison: true
     comparison_type: change
     comparison_reverse_colors: true
@@ -298,7 +298,7 @@
       gcp_billing_export.period: Year
       gcp_billing_export.period_selected: This Year to Date
     sorts: [gcp_billing_export.total_cost desc]
-    limit: 500
+    limit: 50
     column_limit: 50
     dynamic_fields: [{table_calculation: change, label: Change, expression: "(${gcp_billing_export.total_cost}-offset(${gcp_billing_export.total_cost},1))\n\
           /if(${gcp_billing_export.total_cost}=0,null,${gcp_billing_export.total_cost})",
